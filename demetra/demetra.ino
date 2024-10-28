@@ -227,7 +227,7 @@ void setupServerComunication() {
 
     Serial.println("Attempting to connect to server: ");
     int port = 4020;
-    char *serverIP = "192.168.22.205";
+    char *serverIP = "192.168.60.205";
 
     for(int i = 0; i < 5; i++) {
       if (client.connect(serverIP, port)) {
