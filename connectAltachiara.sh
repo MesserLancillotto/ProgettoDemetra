@@ -1,0 +1,1 @@
+nmcli device wifi rescan && nmcli device wifi list; nmcli device wifi connect AltachiaraCellulare
